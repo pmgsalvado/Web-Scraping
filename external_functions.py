@@ -23,7 +23,7 @@ def locationiq_api(address_: str) -> list:
     address_ = address_.replace('(', '')
     address_ = address_.replace(')', '')
     address_ = address_ + ',Portugal'
-    url = "https://eu1.locationiq.com/v1/search?key=pk.75e6e66c15f1044ebe6352c6b54070c1&q=" + address_ + "&format=json"
+    url = "https://eu1.locationiq.com/v1/search?key=TOKEN-GOES-HERE&q=" + address_ + "&format=json"
     session = get_session()
     with session.get(url) as response:
         data = json.loads(response.text)
@@ -47,7 +47,7 @@ def positionstack_api(address_: str) -> list:
     """
     address_ = address_.replace('(', '')
     address_ = address_.replace(')', '')
-    key = '?access_key=' + '992ae8151d220c04091985f0e11de994'
+    key = '?access_key=' + 'YOUR-TOKEN-GOES-HERE'
     base_url = 'http://api.positionstack.com/v1/forward'
     query = '&query=' + address_ + ', Portugal'
     full = base_url + key + query
