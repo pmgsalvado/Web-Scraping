@@ -24,3 +24,29 @@ price ranges, etc., and show all that information in a interactive way through a
   
 </ol>
 
+<h3>Main Tools and Libraries used:</h3>
+<ul>
+  <li><b>Data Presentation:</b>
+    <ul>
+      <li>Ploty Dash</li>
+      <li>Plotly Express</li>
+      <li>Folium</li>
+    </ul>
+  </li>
+  <li><b>Web Scrap:</b>
+    <ul>
+      <li>requests</li>
+      <li>BeautifulSoup</li>
+      <li>Pandas</li>
+      <li>Numpy</li>
+    </ul>
+  
+  </li>
+  <li><b>Geo Location API:</b>
+    <ul>
+      <li>locationiq</li>
+      <li>positionstack</li>
+    </ul>
+  </li>
+
+</ul>
